@@ -45,7 +45,14 @@ const Tasks = () => {
               <td>{task._id}</td>
               <td>{task.title}</td>
               <td>{task.user}</td>
-              <td>{task.note}</td>
+
+              <td>
+                {task.note.length > 30 ? (
+                  <>{task.note.slice(0, 30)}...</>
+                ) : (
+                  task.note
+                )}
+              </td>
               <td>
                 <span className={` badge ${task.status}`}>{task.status}</span>
               </td>
