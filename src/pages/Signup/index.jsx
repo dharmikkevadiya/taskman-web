@@ -32,13 +32,13 @@ const SignupForm = () => {
       const result = response.data;
 
       // Reset the form fields
-      // setFormData({
-      //   firstName: "",
-      //   lastName: "",
-      //   email: "",
-      //   phone: "",
-      //   password: "",
-      // });
+      setFormData({
+        firstName: "",
+        lastName: "",
+        email: "",
+        phone: "",
+        password: "",
+      });
 
       if (result.status === 200) {
         toast.success(result.message);
@@ -55,6 +55,9 @@ const SignupForm = () => {
     <div className="auth-wrapper">
       <div className="signup-form-container">
         <form onSubmit={handleSubmit} className="signup-form">
+          <div className="signup-head">
+            <div>Signup</div>
+          </div>
           <div className="form-group">
             <label htmlFor="firstName">First Name:</label>
             <input
