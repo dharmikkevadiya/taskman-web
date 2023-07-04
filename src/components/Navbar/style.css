@@ -1,0 +1,16 @@
+nav {
+  background-color: #d6edee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+.logoutIcon {
+  margin-right: 20px;
+  margin-top: 7px;
+  cursor: pointer;
+  font-size: 20px;
+}

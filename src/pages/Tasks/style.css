@@ -1,0 +1,26 @@
+.badge {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.created {
+  background-color: #ffcccc;
+  color: #cc0000;
+}
+
+.assigned {
+  background-color: #cce6ff;
+  color: #0066cc;
+}
+
+.start {
+  background-color: #ccffcc;
+  color: #008000;
+}
+
+.complete {
+  background-color: #ffffcc;
+  color: #cccc00;
+}

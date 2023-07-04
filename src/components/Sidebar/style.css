@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+}
+main {
+  width: 100%;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  background: rgb(0, 18, 25);
+  color: #fff;
+  height: 100vh;
+  transition: all 0.3s;
+}
+
+.top_section {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.top_section .logo {
+  width: 50px;
+}
+
+.sidebar .nav_link {
+  padding: 15px;
+  text-align: center;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.sidebar .nav_link:hover {
+  background-color: #383a43;
+}
