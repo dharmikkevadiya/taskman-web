@@ -1,18 +1,25 @@
 .container {
+  width: 100%;
+  height: 100vh;
   display: flex;
+  border: 2px solid red;
 }
 main {
   width: 100%;
+  overflow: auto;
+  border: 4px solid green;
 }
 
 .sidebar {
   display: flex;
   flex-direction: column;
-  width: 250px;
+  min-width: 250px;
   background: rgb(0, 18, 25);
   color: #fff;
-  height: 100vh;
   transition: all 0.3s;
+  position: sticky;
+  top: 0;
+  left: 0;
 }
 
 .top_section {

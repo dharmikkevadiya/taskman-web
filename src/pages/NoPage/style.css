@@ -1,0 +1,25 @@
+.no_page_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 1200px;
+}
+
+.no_page_container .content {
+  width: 500px;
+}
+
+.no_page_container .code_text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 186px;
+  font-weight: 900;
+  margin: 0;
+  background-size: cover;
+  background-position: center;
+  color: #ccc;
+}
+
+.no_page_container .oops_text {
+  font-size: 24px;
+}

@@ -2,6 +2,7 @@ import { NavLink } from "react-router-dom";
 import "./style.css";
 import { FaTasks, FaUser, FaMailBulk, FaListAlt } from "react-icons/fa";
 import logo from "../../assets/logo1.png";
+import Navbar from "../Navbar";
 
 const Sidebar = ({ children }) => {
   const menuItems = [
@@ -52,7 +53,11 @@ const Sidebar = ({ children }) => {
           </NavLink>
         ))}
       </div>
-      <main>{children}</main>
+      <main>
+        <Navbar />
+
+        {children}
+      </main>
     </div>
   );
 };
